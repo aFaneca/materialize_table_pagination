@@ -1,6 +1,6 @@
 # materializecss-table-pagination
-Plugin to paginate html tables, using materializecss.
-> Since the original repository is no longer being updated and its JS support is already broken and deprecated, I thought it could be benefitial to release an updated and tweaked version of the library. Works great in coordination with MaterializeCSS and as a standalone too.
+> Plugin to paginate html tables, using materializecss.
+Since the original repository is no longer being updated and its JS support is already broken and deprecated, I thought it could be benefitial to release an updated and tweaked version of the library. Works great in coordination with MaterializeCSS.
 
 ## Basic Usage
 Import all css and js dependencies
@@ -10,11 +10,11 @@ Import all css and js dependencies
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!--Import materialize.css-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <!--Import jquery.css-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <!--Import materialize.js-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <!--Import pagination.js this is the plugin-->
 <script type="text/javascript" src="js/pagination.js"></script>
 ```
