@@ -6,6 +6,7 @@ $.fn.pageMe = function(opts){
             showPrevNext: false,
             nextText: '',
             prevText: '',
+            entriesRecordedText: 'entries recorded',
             hidePageNumbers: false
         },
         settings = $.extend(defaults, opts);
@@ -25,10 +26,9 @@ $.fn.pageMe = function(opts){
         pager = $(settings.pagerSelector);
     }
 
-    var numItems = children.size();
+    var numItems = children.length;
     var numPages = Math.ceil(numItems/perPage);
-    
-    $("#total_reg").html(numItems+" Entradas en total");
+    $("#total_reg").html(numItems + " " + settings.entriesRecordedText + ".");
 
     pager.data("curr",0);
 
