@@ -28,6 +28,7 @@ $(document).ready(function(){
 	  activeColor: 'green',
 	  prevText:'Anterior',
 	  nextText:'Siguiente',
+	  entriesRecordedText: 'entries recorded',
 	  showPrevNext:true,
 	  hidePageNumbers:false,
 	  perPage:10
@@ -39,15 +40,16 @@ $(document).ready(function(){
 ## Options
 
 ```
-pagerSelector:'#myPager',         the name of the materialize pager
-activeColor: 'green',			  color of the active page
-prevText:'Anterior',			  previous text
-nextText:'Siguiente',             next text
-showPrevNext:true,                show previous and next buttons 
-hidePageNumbers:false,            hide page numbers
-perPage:10						  number of rows to show
+pagerSelector:'#myPager',                // the name of the materialize pager
+activeColor: 'green',		         // color of the active page
+prevText:'Previous',		         //  'previous page' text
+nextText:'Next',                         //  'next page' text
+entriesRecordedText: 'entries recorded', // '%s entries recorded' text
+showPrevNext:true,                       // show previous and next buttons
+hidePageNumbers:false,                   // hide page numbers
+perPage:10			         // number of rows to show
 ```
 
 ### Demo
 
-View paginacion.html to see the code to use pagination plugin.
+View pagination.html to see the code to use pagination plugin.
