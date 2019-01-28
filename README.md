@@ -1,8 +1,9 @@
 # materializecss-table-pagination
-Plugin to paginate html tables, using materializecss
+Plugin to paginate html tables, using materializecss.
+Since the original repository is no longer being updated and its JS support is already broken and deprecated, I thought it could be benefitial to release an updated and tweaked version of the library. Works great in coordination with MaterializeCSS and as a standalone too.
 
 ## Basic Usage
-Import to all css and js dependencies
+Import all css and js dependencies
 
 
 ```
